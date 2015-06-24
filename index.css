@@ -1,0 +1,87 @@
+ul, li, h1, h2, h3, h4, h5, h6, p, div, section, article, a, body, html, button, input, textarea {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  text-align: inherit;
+  text-decoration: none;
+  box-sizing: content-box;
+}
+
+button, a {
+  cursor: pointer;
+}
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+ul {
+    /*border-right: 4px solid black;
+    border-left: 4px solid black;*/
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+ul:first-child {
+    /*border-top: 4px solid black;*/
+    /*margin-top: 20px;*/
+}
+
+ul:nth-child(3n+0) {
+    /*border-bottom: 4px solid black;*/
+}
+
+ul:last-child {
+    /*border-bottom: 4px solid black;*/
+}
+
+li {
+  height: calc(100% / 9);
+  width: calc(100% / 9);
+  /*border: 1px solid black;*/
+  float: left;
+  display: block;
+  background: #e5e5ff;
+}
+
+li:nth-child(3n + 0) {
+    /*border-right: 4px solid black;*/
+}
+
+li:nth-child(9n + 0) {
+    /*border-right: 1px solid black;*/
+}
+
+.b1 {
+    background: #b2b2ff;
+}
+.b2 {
+    background: #7f7fff;
+}
+.b3 {
+    background: #4c4cff;
+}
+.b4 {
+    background: #1919ff;
+}
+.b5 {
+    background: #0000e5;
+}
+.b6 {
+    background: #0000b2;
+}
+.b7 {
+    background: #00007f;
+}
+.b8 {
+    background: #00004c;
+}
+.b9 {
+    background: #000019;
+}
