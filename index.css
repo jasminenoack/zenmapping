@@ -47,7 +47,7 @@ li {
   /*border: 1px solid black;*/
   float: left;
   display: block;
-  background: #e5e5ff;
+  background: #FFCCCC;
 }
 
 li:nth-child(3n + 0) {
@@ -59,29 +59,29 @@ li:nth-child(9n + 0) {
 }
 
 .b1 {
-    background: #b2b2ff;
+    background: #FF0099;
 }
 .b2 {
-    background: #7f7fff;
+    background: #D9008C;
 }
 .b3 {
-    background: #4c4cff;
+    background: #B30080;
 }
 .b4 {
-    background: #1919ff;
+    background: #8C0073;
 }
 .b5 {
-    background: #0000e5;
+    background: #660066;
 }
 .b6 {
-    background: #0000b2;
+    background: #590D8C;
 }
 .b7 {
-    background: #00007f;
+    background: #4D1AB3;
 }
 .b8 {
-    background: #00004c;
+    background: #4026D9;
 }
 .b9 {
-    background: #000019;
+    background: #3333FF;
 }
